@@ -112,4 +112,6 @@ window.onload = function () {
             alert("Добро пожаловать, " + username.value + "!");
         }
     }
+    
+console.log("Сообщение из ветки dev-2");
 }
