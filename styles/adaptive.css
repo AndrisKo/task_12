@@ -1,0 +1,21 @@
+@media screen and (max-width: 1180px) {
+    body {
+        background: white;
+    }
+
+    .header-logo {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .main-all {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .main-image {
+        display: none;
+    }
+}

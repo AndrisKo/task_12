@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+<header>
+    <div class="container header-logo">
+        <a href="#">
+            <img src="images/homeWorks.png" alt="logo">
+        </a>
+    </div>
+</header>
+<main>
+    <section class="container main-all">
+        <div class="main-form">
+            <h1 class="main-title">Get your free account</h1>
+            <div class="main-form-text">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+            <form class="form" action="javascript:void(0);" id="signupForm">
+                <label>Full Name
+                    <input type="text" id="fullName">
+                </label>
+                <label>Your username
+                    <input type="text" id="username">
+                </label>
+                <label>E-mail
+                    <input type="email" id="email">
+                </label>
+                <label>Password
+                    <input type="password" id="password">
+                </label>
+                <label>Repeat Password
+                    <input type="password" id="repeatPassword">
+                </label>
+                <label id="checkbox">
+                    <input type="checkbox" id="checkbox-input"> Agree to our Terms of Service and Privacy Statement
+                </label>
+                <div class="form-action">
+                    <button type="submit" id="btn">Sign Up</button>
+                    <a class="login-link" href="#" id="loginLink">Login
+                        Already have an account?
+                    </a>
+                </div>
+            </form>
+            <div id="successModal" class="modal">
+                <div class="modal-content">
+                    <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+                    <button id="okButton">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-image">
+            <img src="images/image.png" alt="image">
+        </div>
+    </section>
+</main>
+<script src="scripts/script.js"></script>
+</body>
+</html>
