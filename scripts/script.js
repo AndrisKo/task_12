@@ -114,4 +114,7 @@ window.onload = function () {
     }
     
 console.log("Сообщение из ветки dev-2");
+
+
+
 }
