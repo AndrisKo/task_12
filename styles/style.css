@@ -150,7 +150,7 @@ input:not(#checkbox-input) {
 }
 
 #successModal .modal-content button {
-    
+
     margin-top: 20px;
     box-sizing: border-box;
 
@@ -168,4 +168,5 @@ input:not(#checkbox-input) {
     
     cursor: pointer;
     text-align: center;
+    
 }
