@@ -161,9 +161,10 @@ input:not(#checkbox-input) {
 
     color: #FFF;
     font-family: Nunito, sans-serif;
-    
+
     font-size: 16px;
     line-height: 20px;
+    
     cursor: pointer;
     text-align: center;
 }
