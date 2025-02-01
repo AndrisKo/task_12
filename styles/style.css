@@ -152,9 +152,10 @@ input:not(#checkbox-input) {
 #successModal .modal-content button {
     margin-top: 20px;
     box-sizing: border-box;
-    
+
     border-radius: 40px;
     background: #ed031a;
+    
     padding: 12px 35px;
     border: 0;
     color: #FFF;
